@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-DUO</title>
+    <!-- BOOTSTRAP -->
+    <meta name="desciption" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- FONT AWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/5eeb52cb77.js" crossorigin="anonymous"></script>
+    <!-- JAVA SCRIPT -->
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script>
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <div class="logo" style="width:35%; text-align: center; "> <i class="fa-solid fa-graduation-cap"> E-DUO</i>
+        </div>
+        <ul class="three" style="width:65%">
+            <li><a class="active" href="">Home</a></li>
+            <li><a href="#portfolio_section">Portfolio</a></li>
+            <li><a href="#team_section">Team</a></li>
+            <li><a href="#services_section">Services</a></li>
+            <li><a href="#contactus_section">Contact</a></li>
+        </ul>
+
+
+    </nav>
+
+
+
+
+
+</body>
+
+</html>
